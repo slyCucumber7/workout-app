@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="10.0" style="-fx-background-color: #B7B9C8;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.slycucumber7.workoutapp.controllers.Scene4Controller">
+   <children>
+      <TextField fx:id="entryNameField" alignment="CENTER" editable="false" prefHeight="100.0" style="-fx-border-color: black;">
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </VBox.margin>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label text="Weekly Average:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="5.0">
+         <children>
+            <Label alignment="CENTER" layoutX="310.0" layoutY="27.0" prefHeight="25.0" prefWidth="145.0" text="Sets">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label alignment="CENTER" layoutX="308.0" layoutY="27.0" prefHeight="25.0" prefWidth="145.0" text="Reps">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label alignment="CENTER" layoutX="310.0" layoutY="27.0" prefHeight="25.0" prefWidth="145.0" text="Weight">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label alignment="CENTER" layoutX="439.0" layoutY="27.0" prefHeight="25.0" prefWidth="145.0" text="Intensity (RPE)">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+         </children>
+      </HBox>
+      <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="5.0">
+         <children>
+            <TextField fx:id="wkSetF" alignment="CENTER" editable="false" prefHeight="25.0" prefWidth="145.0" />
+            <TextField fx:id="wkRepF" alignment="CENTER" editable="false" prefHeight="25.0" prefWidth="145.0" />
+            <TextField fx:id="wkWtF" alignment="CENTER" editable="false" prefHeight="25.0" prefWidth="145.0" />
+            <TextField fx:id="wkRpeF" alignment="CENTER" editable="false" layoutX="236.0" layoutY="10.0" prefHeight="25.0" prefWidth="145.0" />
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <padding>
+            <Insets left="5.0" right="5.0" />
+         </padding>
+      </HBox>
+      <Label text="Monthly Average: ">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <HBox alignment="CENTER" layoutX="10.0" layoutY="142.0" prefHeight="50.0" prefWidth="200.0" spacing="5.0">
+         <children>
+            <Label alignment="CENTER" layoutX="310.0" layoutY="27.0" prefHeight="25.0" prefWidth="145.0" text="Sets">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="308.0" layoutY="27.0" prefHeight="25.0" prefWidth="145.0" text="Reps">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="310.0" layoutY="27.0" prefHeight="25.0" prefWidth="145.0" text="Weight">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="439.0" layoutY="27.0" prefHeight="25.0" prefWidth="145.0" text="Intensity (RPE)">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox alignment="TOP_CENTER" layoutX="10.0" layoutY="110.0" prefHeight="100.0" prefWidth="200.0" spacing="5.0">
+         <children>
+            <TextField fx:id="moSetF" alignment="CENTER" editable="false" prefHeight="25.0" prefWidth="145.0" />
+            <TextField fx:id="moRepF" alignment="CENTER" editable="false" prefHeight="25.0" prefWidth="145.0" />
+            <TextField fx:id="moWtF" alignment="CENTER" editable="false" prefHeight="25.0" prefWidth="145.0" />
+            <TextField fx:id="moRpeF" alignment="CENTER" editable="false" layoutX="87.0" layoutY="10.0" prefHeight="25.0" prefWidth="145.0" />
+         </children>
+         <padding>
+            <Insets left="5.0" right="5.0" />
+         </padding>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="10.0" top="10.0" />
+   </padding>
+</VBox>

@@ -1,0 +1,21 @@
+/* HBox which holds all other entry components  */
+.entryContainer{	
+	-fx-border-color:  #807D8A;
+	-fx-border-width: 3;
+	-fx-alignment: center-left;
+	-fx-spacing: 20;
+	-fx-padding: 5;
+	
+}
+/* VBox that holds the buttons  */
+.buttonHolder{
+	-fx-alignment: center;
+}
+
+.entryButton{
+	-fx-alignment: center;
+	-fx-pref-width: 100;
+}
+.entryText{
+	-fx-font-size: 16;
+}

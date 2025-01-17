@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #C2C4D0;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.slycucumber7.workoutapp.controllers.Scene2Controller">
+   <children>
+      <Label text="Add/Edit Exercise">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <padding>
+            <Insets bottom="10.0" />
+         </padding>
+      </Label>
+      <TextField fx:id="nameF" promptText="Exercise Name" />
+      <TextField fx:id="weightF" promptText="Weight" />
+      <TextField fx:id="setF" promptText="Sets" />
+      <TextField fx:id="repF" promptText="Reps" />
+      <TextField fx:id="rpeF" layoutX="30.0" layoutY="208.0" promptText="RPE" />
+      <HBox alignment="TOP_CENTER" prefHeight="60.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="conBut" mnemonicParsing="false" onAction="#confirm" text="Confirm" />
+            <Button fx:id="cloBut" mnemonicParsing="false" onAction="#cancel" text="Close" />
+         </children>
+      </HBox>
+      <TextField fx:id="errorField" alignment="CENTER" editable="false" prefHeight="60.0" />
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <padding>
+      <Insets bottom="10.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
